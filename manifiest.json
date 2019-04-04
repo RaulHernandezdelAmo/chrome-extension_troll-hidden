@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Troll Hidden",
+  "description": "Troll",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://blog.lateral.io/*"]
+  }],
+  "icons": {
+    "48":   "img/48-icon.png",
+    "128":  "img/128-icon.png"
+  }
+}
